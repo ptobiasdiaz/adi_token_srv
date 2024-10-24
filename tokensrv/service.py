@@ -1,6 +1,4 @@
-'''
-    Token Service: service (mock)
-'''
+''' Token Service: service (mock) '''
 
 from typing import List
 

@@ -1,3 +1,1 @@
-'''
-    Token Service: main
-'''
+''' Token Service: main '''

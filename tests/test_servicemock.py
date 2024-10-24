@@ -1,6 +1,4 @@
-'''
-    Token Service: test mock (use as example)
-'''
+''' Token Service: test mock (use as example) '''
 
 import unittest
 

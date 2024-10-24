@@ -1,6 +1,4 @@
-'''
-    Token Service: blue print of the API
-'''
+''' Token Service: blue print of the API '''
 import json
 
 from tokensrv.service import TokenNotFound
