@@ -18,7 +18,7 @@ jobs:
             - name: Analysing the code with pylint
               run: |
                 echo "Pylint success threshold set to ${PYLINT_THRESHOLD:-Undefined, using 8 by default}"
-                pylint --fail-under=${PYLINT_THRESHOLD:-8} remotetypes tests
+                pylint --fail-under=${PYLINT_THRESHOLD:-8} tokensrv tests
 
     ruff:
         runs-on: ubuntu-latest
