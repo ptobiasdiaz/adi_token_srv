@@ -1,1 +1,1 @@
-''' Token Service: test framework '''
+"""Token Service: test framework."""
