@@ -25,6 +25,7 @@ class TokenNotFound(Exception):
 class ServiceMock:
     '''Mock implementation of the service'''
     def token_owner(self, token: str) -> str:
+        '''Get the owner of a given token'''
         if token == ADMIN_TOKEN:
             return ADMIN_USERNAME
         if token == USER_TOKEN:
@@ -32,6 +33,7 @@ class ServiceMock:
         raise TokenNotFound(token)
 
     def token_roles(self, token: str) -> List[str]:
+        '''Get the list of roles of a given token'''
         if token == ADMIN_TOKEN:
             return [ADMIN_ROLE, USER_ROLE]
         if token == USER_TOKEN:
