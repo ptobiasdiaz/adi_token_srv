@@ -2,7 +2,7 @@
 [![Linters](https://github.com/ptobiasdiaz/adi_token_srv/actions/workflows/linters.yml/badge.svg)](https://github.com/UCLM-ESI/remote-types/actions/workflows/linters.yml)
 [![Type checking](https://github.com/ptobiasdiaz/adi_token_srv/actions/workflows/typechecking.yml/badge.svg)](https://github.com/UCLM-ESI/remote-types/actions/workflows/typechecking.yml)
 
-Token Service for ADI 2024-2025 (mock)
+# Token Service for ADI 2024-2025 (mock)
 
 ## Installation
 
