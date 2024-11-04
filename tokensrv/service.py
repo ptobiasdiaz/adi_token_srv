@@ -18,10 +18,9 @@ class TokenNotFound(Exception):
         """Store affected token."""
         self._tk_ = token
 
-    def __str__(self) -> str:
+    def __str__(self) -> str:  # pragma: no cover
         """Error description."""
         return f'Invalid token: {self._tk_}'
-
 
 class ServiceMock:
     """Mock implementation of the service."""
