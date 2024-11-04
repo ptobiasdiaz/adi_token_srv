@@ -17,10 +17,15 @@ class TestServiceMock(unittest.TestCase):
         """Test user token."""
         self.assertEqual(Service().token_owner('token_for_user'), 'user')
 
-    def test_wrong_token(self):
+    def test_wrong_token_owner(self):
         """Test wrong token."""
         with self.assertRaises(TokenNotFound):
             Service().token_owner('other_token')
+
+    def test_wrong_token_roles(self):
+        """Test wrong token."""
+        with self.assertRaises(TokenNotFound):
+            Service().token_roles('other_token')
 
     def test_roles_of_admin(self):
         """Test admin roles."""
