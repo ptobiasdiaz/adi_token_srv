@@ -22,7 +22,7 @@ license = "GPL-3.0-only"
 token_service = "tokensrv.command_handlers:run_server"
 
 [project.optional-dependencies]
-tests = ["pytest"]
+tests = ["pytest-cov"]
 linters = ["mypy", "pylint", "ruff"]
 
 # Tools configuration
